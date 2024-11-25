@@ -1,0 +1,22 @@
+{
+    "sourceFile": "src/1.ts",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1732572198962,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1732572229422,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,16 +4,9 @@\n   напишіть скорочену ініціалізацію.\n */\n \n class Student {\n-  public name: string;\n-  public age: number;\n-  public grade: string;\n-\n-  constructor(public name: string, public age: number, grade: string) {\n-    this.name = name;\n-    this.age = age;\n-    this.grade = grade;\n+  constructor(public name: string, public age: number, public grade: string) {\n   }\n }\n \n export {};\n"
+                }
+            ],
+            "date": 1732572198962,
+            "name": "Commit-0",
+            "content": "/*\n  Клас Student, який містить три властивості: name, age та grade. \n  Замість того, щоб оголошувати ці властивості в тілі класу, потім у конструкторі, і нарешті надавати їм значення, \n  напишіть скорочену ініціалізацію.\n*/\n\nclass Student {\n  public name: string;\n  public age: number;\n  public grade: string;\n\n  constructor(public name: string, public age: number, grade: string) {\n    this.name = name;\n    this.age = age;\n    this.grade = grade;\n  }\n}\n\nexport {};"
+        }
+    ]
+}

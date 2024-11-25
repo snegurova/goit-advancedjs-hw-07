@@ -1,0 +1,30 @@
+{
+    "sourceFile": "src/4.ts",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 3,
+            "patches": [
+                {
+                    "date": 1732572814382,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1732572862559,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,11 @@\n+interface IKey {\n+    \n+}\n+\n+\n+\n+\n const key = new Key();\n \n const house = new MyHouse(key);\n const person = new Person(key);\n"
+                },
+                {
+                    "date": 1732572874956,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,7 @@\n-interface IKey {}\n+interface IKey {\n+    \n+}\n \n const key = new Key();\n \n const house = new MyHouse(key);\n"
+                },
+                {
+                    "date": 1732572914775,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,7 @@\n-interface IKey {}\n+interface IKey {\n+  signature: number;\n+}\n \n const key = new Key();\n \n const house = new MyHouse(key);\n"
+                }
+            ],
+            "date": 1732572814382,
+            "name": "Commit-0",
+            "content": "\n\nconst key = new Key();\n\nconst house = new MyHouse(key);\nconst person = new Person(key);\n\nhouse.openDoor(person.getKey());\n\nhouse.comeIn(person);\n\n\nexport {};"
+        }
+    ]
+}
